@@ -60,7 +60,7 @@ ul {
 .sitenavigation .sitemenu {
   margin-bottom: 0;
 }
-.sitenavigation .sitemenu > li > a {
+.sitenavigation .sitemenu > li > * {
   font-size: 14px;
   padding: 10px 15px;
   display: inline-block;
@@ -135,9 +135,8 @@ ul {
 .sitemenu > li > link {
   padding-right: 5px;
 }
-
-.cart > link {
-  padding-right: 5px;
+.icon {
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 81em) {

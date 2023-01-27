@@ -91,6 +91,8 @@ div {
   color: white;
   cursor: pointer;
 }
+.cart {
+}
 
 @media screen and (max-width: 81em) {
   html {

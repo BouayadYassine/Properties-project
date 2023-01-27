@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import classes from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import { FaCartPlus } from "react-icons/fa";
-import Cart from "./Cart";
 
 const navbar = () => {
   return (
@@ -54,7 +53,7 @@ const navbar = () => {
               <li className={classes.cart}>
                 <Link to='Cart'>
                   Cart
-                  <FaCartPlus />
+                  <FaCartPlus className={classes.icon} />
                 </Link>
               </li>
             </ul>
